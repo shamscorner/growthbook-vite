@@ -1,6 +1,11 @@
 {
 	"name": "growthbook-vite",
 	"version": "0.0.1",
+	"description": "GrowthBook is an open-source A/B testing platform for developers. This is a Vite library for Sveltekit.",
+	"author": {
+		"name": "Shamim Hossain",
+		"email": "hossains159@gmail.com"
+	},
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run package",

@@ -8,12 +8,8 @@ Read more about this in their official [Github repository](https://github.com/gr
 
 ## How to use
 
-If you're seeing this, you've probably already done this step. Congrats!
+Run the below command to install the package.
 
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
+npm i ...
 ```
