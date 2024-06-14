@@ -49,9 +49,9 @@ import {
 	loadSDKVersion,
 	mergeQueryStrings,
 	toString
-} from './util';
-import { evalCondition } from './mongrule';
-import { refreshFeatures, startAutoRefresh, subscribe, unsubscribe } from './feature-repository';
+} from './util.js';
+import { evalCondition } from './mongrule.js';
+import { refreshFeatures, startAutoRefresh, subscribe, unsubscribe } from './feature-repository.js';
 
 const isBrowser = typeof window !== 'undefined' && typeof document !== 'undefined';
 
